@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Arvind Verma | Senior Software Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--primary:#3f51b5;
+--accent:#ff4081;
+--background:#fafafa;
+--card:#ffffff;
+--text:#333;
+}
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:Roboto, Arial;
+}
+
+body{
+background:var(--background);
+color:var(--text);
+}
+
+/* Top toolbar */
+
+header{
+background:var(--primary);
+color:white;
+padding:18px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 6px rgba(0,0,0,.2);
+}
+
+header h1{
+font-weight:500;
+font-size:22px;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:400;
+}
+
+nav a:hover{
+opacity:.8;
+}
+
+/* hero */
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:40px;
+font-weight:500;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+opacity:.8;
+}
+
+/* layout */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+/* cards */
+
+.card{
+background:var(--card);
+padding:25px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+transition:.2s;
+}
+
+.card:hover{
+box-shadow:0 6px 16px rgba(0,0,0,.2);
+transform:translateY(-2px);
+}
+
+.card h3{
+color:var(--primary);
+margin-bottom:10px;
+}
+
+/* skills */
+
+.skill{
+background:#eee;
+padding:8px 12px;
+margin:5px;
+display:inline-block;
+border-radius:20px;
+font-size:13px;
+}
+
+/* footer */
+
+footer{
+text-align:center;
+padding:40px 20px;
+opacity:.7;
+}
+
+.btn{
+background:var(--accent);
+color:white;
+padding:10px 20px;
+border-radius:20px;
+text-decoration:none;
+display:inline-block;
+margin-top:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Arvind Verma</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Senior Software Engineer</h2>
+<p>.NET • Angular • Azure • Financial Technology</p>
+</section>
+
+<div class="container">
+
+<section id="about">
+<div class="card">
+<h3>About Me</h3>
+<p>
+Senior Full Stack .NET developer with 10+ years of experience building enterprise
+applications in Banking and Financial Services. Specialized in designing scalable
+solutions using C#, ASP.NET, Angular, and Microsoft Azure.
+</p>
+</div>
+</section>
+
+<br>
+
+<section id="experience" class="grid">
+
+<div class="card">
+<h3>Cognizant</h3>
+<p><strong>Senior Software Engineer</strong></p>
+<p>
+Building derivatives reporting platforms, developing .NET services and Azure
+solutions supporting financial reconciliation and analytics systems.
+</p>
+</div>
+
+<div class="card">
+<h3>Tata Consultancy Services</h3>
+<p><strong>Full Stack Developer</strong></p>
+<p>
+Developed enterprise applications using C#, WinForms, Angular and Azure.
+Led development teams and designed REST APIs for cloud-based financial platforms.
+</p>
+</div>
+
+<div class="card">
+<h3>TCS Innovation Lab</h3>
+<p>
+Developed gesture-based robotics system using Kinect sensor.
+Work resulted in an international patent and technology recognition.
+</p>
+</div>
+
+</section>
+
+<br>
+
+<section id="skills">
+
+<div class="card">
+<h3>Technical Skills</h3>
+
+<div class="skill">C#</div>
+<div class="skill">.NET / ASP.NET</div>
+<div class="skill">Angular</div>
+<div class="skill">TypeScript</div>
+<div class="skill">Python</div>
+<div class="skill">Azure</div>
+<div class="skill">SQL Server</div>
+<div class="skill">SSIS</div>
+<div class="skill">Entity Framework</div>
+<div class="skill">REST APIs</div>
+<div class="skill">NodeJS</div>
+<div class="skill">Git</div>
+
+</div>
+
+</section>
+
+<br>
+
+<section id="projects" class="grid">
+
+<div class="card">
+<h3>Derivative Reporting Platform</h3>
+<p>
+Financial reconciliation system integrating trade data,
+account hubs and ledger systems to perform variance analysis.
+</p>
+</div>
+
+<div class="card">
+<h3>Cloud Data Pipelines</h3>
+<p>
+Built ETL pipelines using Azure Data Factory and SSIS
+for enterprise data migration to cloud environments.
+</p>
+</div>
+
+<div class="card">
+<h3>Hybrid Reality Robot</h3>
+<p>
+Gesture-controlled robot navigation system built using
+Microsoft Kinect sensor and spatial audio processing.
+</p>
+</div>
+
+</section>
+
+<br>
+
+<section id="contact">
+<div class="card">
+<h3>Contact</h3>
+
+<p>Email: arvind.verma748@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/arvind-verma</p>
+
+<a class="btn" href="https://github.com" target="_blank">
+View GitHub
+</a>
+
+</div>
+</section>
+
+</div>
+
+<footer>
+© 2026 Arvind Verma
+</footer>
+
+</body>
+</html>
